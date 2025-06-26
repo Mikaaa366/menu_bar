@@ -9,17 +9,18 @@
       margin: 0;
       background-color: #eeeeee;
       display: flex;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
-      min-height: 100vh;
+      padding: 20px;
     }
     .menu-wrapper {
       width: 100%;
-      max-width: 1000px; 
-      padding: 10px;
+      max-width: 1400px; /* duża szerokość na desktopie */
       background-color: #ffffff;
       box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
       border-radius: 6px;
+      margin-bottom: 30px;
+      padding: 10px;
     }
     img {
       width: 100%;
@@ -31,7 +32,13 @@
 </head>
 <body>
   <div class="menu-wrapper">
-    <img src="2.jpg" alt="Menu Bar Przystań">
+    <img src="2.jpg" alt="Menu Strona 1">
+  </div>
+  <div class="menu-wrapper">
+    <img src="3.jpg" alt="Menu Strona 2">
+  </div>
+  <div class="menu-wrapper">
+    <img src="4.jpg" alt="Menu Strona 3">
   </div>
 </body>
 </html>
